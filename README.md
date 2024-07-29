@@ -9,7 +9,7 @@ InterSystems IRIS 2024.1でWSGI準拠のWebアプリケーションを管理で�
 IRIS上に作成した人物テーブルを名前で検索して表示する、シンプルなWebアプリケーションです。
 
 WSGIに準拠したWebフレームワーク・Flaskを利用しています。
-InterSystems 2024.1以降で利用することを想定しています。
+InterSystems IRIS 2024.1以降で利用することを想定しています。
 
 ### 事前準備
 
