@@ -30,7 +30,7 @@ python3 -m pip install  --target <IRISインストールディレクトリ>/mgr/
 ~~~
 
 + ダミーデータの生成
-  + [insert-dummy-data.sql](insert-dummy-data.sql)をEmbedded Pythonで実行します (事前にinsert-dummy-data.pyのIRIS接続情報を書き換えてください。)
+  + [insert-dummy-data.sql](setup/insert-dummy-data.sql)をEmbedded Pythonで実行します (事前にinsert-dummy-data.pyのIRIS接続情報を書き換えてください。)
     + 例)  `<IRISインストールディレクトリ>/bin/irispython insert-dummy-data.py`
 
   + insert-dummy-data.pyはtest.personテーブルへダミーデータを登録します。
