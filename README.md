@@ -1,4 +1,4 @@
-# IrisWsgiDemo
+# iris-flask-demo
 
 ### 背景・概要
 InterSystems IRIS 2024.1でWSGI準拠のWebアプリケーションを管理できるようになりました(試験リリース)。
@@ -27,11 +27,10 @@ python3 -m pip install  --target <IRISインストールディレクトリ>/mgr/
 ~~~
 
 + ダミーデータの生成
-  + [insert-dummy-data.sql](insert-dummy-data.sql)をEmbedded Pythonで実行します
+  + [insert-dummy-data.sql](insert-dummy-data.sql)をEmbedded Pythonで実行します (事前にinsert-dummy-data.pyのIRIS接続情報を書き換えてください。)
     + 例)  `<IRISインストールディレクトリ>/bin/irispython insert-dummy-data.py`
 
   + insert-dummy-data.pyはtest.personテーブルへダミーデータを登録します。
-  + ※事前にinsert-dummy-data.pyのIRIS接続情報を書き換えてください。
 
 ### ソースの配置
 
