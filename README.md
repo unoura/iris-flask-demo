@@ -71,7 +71,7 @@ IRIS管理ポータルで下記を実行します。
 ![alt text](readme-images/role.png)
 
 ### ブラウザでアクセス
-http://(Webサーバ)/flasktest にアクセスすると、下図のような画面が表示されます。
+http://(Webサーバ)/flasktest にアクセスすると、下図のような画面が表示されます。(Webサーバの設定により、URLはhttp://(Webサーバ)/csp/flasktest の場合もあります)
 
 ![alt text](readme-images/person-search.png)
 
